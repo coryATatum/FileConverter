@@ -2,4 +2,80 @@ body{
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
+    font-family: "Montserrat",sans-serif;
 }
+
+main{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+.nav-and-userInfo{
+    width: 20%;
+    height: 100vh;
+    padding: 2%;
+}
+
+.userInfo{
+    border-radius: 4px;
+    background-color: #FFFAFA;
+    width: 85%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-name{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.user-email{
+    color: gray;
+}
+
+.user-image{
+    background-image: url("../FileConverter/img/B.png");
+    background-size: cover;
+    width: 35%;
+    height: 5.5rem;
+    border-radius: 50%;
+}
+
+.nav{
+    border-radius: 4px;
+    width: 85%;
+    height: 350px;
+    margin-top: 8%;
+    background-color: #FFFAFA;
+    color: gray;
+}
+
+.nav ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nav ul li{
+        display: inline-block;
+        padding-left: 10px;
+}
+
