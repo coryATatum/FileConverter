@@ -17,6 +17,7 @@ main{
     overflow: hidden;
 }
 
+
 a{
     color: grey;
     text-decoration: none;
@@ -93,7 +94,6 @@ span{
 }
 
 .file-converter{
-    border: 1px solid black;
     border-radius: 12px;
     background-color: #FFFAFA;
     width: 50%;
@@ -102,17 +102,7 @@ span{
     margin-right: 2rem;
 }
 
-.file-history{
-    border: 1px solid black;
-    border-radius: 12px;
-    background-color: #FFFAFA;
-    width: 25%;
-    height: 90vh;
-    margin-top: 2rem;
-    margin-right: 2rem;
-}
-
-.drop-file nav{
+.file-converter nav{
     border-radius: 12px;
     display: flex;
     flex-direction: row;
@@ -130,3 +120,122 @@ span{
     margin-right: 1.5rem;
 }
 
+.drop-file{
+    border: 3px dashed #7994de;
+    border-radius: 12px;
+    width: 95%;
+    height: 250px;
+    margin-left: 1rem;
+    background-color: rgba(0,0,0,0);
+}
+
+.embbeded-image{
+    background-color: #e4eaf8;
+    border-radius: 12px;
+    width: 45.8%;
+    height: 251px;
+    position: fixed;
+    top: 12.5%;
+    left: 24.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.embbeded-image svg{
+    color: #7994de
+}
+
+.embbeded-image p{
+    color: #7994de
+}
+
+p.file-size-desc {
+    margin-top: .5px; 
+}
+
+.embbeded-image button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #7994de;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+button:hover{
+    cursor: pointer;
+}
+
+.ready-file{
+    width: 95%;
+    height: 60px;
+    margin-left: 1rem;
+    margin-top: .5rem;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.file-name{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #222222;
+}
+
+.ready-file button {
+
+    padding: 10px 20px;
+    background-color: #8ea6ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .file-size{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+  }
+
+  
+.file-history{
+    border-radius: 12px;
+    background-color: #FFFAFA;
+    width: 25%;
+    height: 90vh;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.history{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.history p{
+    margin-left: 1rem;
+}
+
+.history svg{
+    margin-right: 1rem;
+}
+
+.file-history span{
+    margin-left: 1rem;
+    color: grey;
+}
