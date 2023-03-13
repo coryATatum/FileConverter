@@ -5,3 +5,4 @@ const browseBtn = document.getElementById('browse-btn');
     input.click();
   });
 
+///////////
