@@ -4,7 +4,7 @@ browseBtn.addEventListener('click', () => {
   input.type = 'file';
   input.click();
 });
-
+///
 
 
 
